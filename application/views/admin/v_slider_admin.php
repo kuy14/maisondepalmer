@@ -18,6 +18,9 @@
             <li>
                 <input type="submit" value="Edit Slider 4" name="slide4">
             </li>
+                <a href="<?php echo base_url('AdminLogin/logout') ?>">
+                    Log-Out
+                </a>
         </ul>
     </form>
 </body>
