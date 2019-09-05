@@ -95,7 +95,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li>
 							<div class="banner-top2">
 								<div class="banner-info-wthree">
-									<h3>Nike</h3>
+									<h3>Terry Palmer</h3>
 									<p>See how good they feel.</p>
 
 								</div>
@@ -105,7 +105,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li>
 							<div class="banner-top3">
 								<div class="banner-info-wthree">
-									<h3>Heels</h3>
+									<h3>Terry Palmer</h3>
 									<p>For All Walks of Life.</p>
 
 								</div>
@@ -115,7 +115,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li>
 							<div class="banner-top">
 								<div class="banner-info-wthree">
-									<h3>Sneakers</h3>
+									<h3>Terry Palmer</h3>
 									<p>See how good they feel.</p>
 
 								</div>
@@ -125,7 +125,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li>
 							<div class="banner-top1">
 								<div class="banner-info-wthree">
-									<h3>Adidas</h3>
+									<h3>Terry Palmer</h3>
 									<p>For All Walks of Life.</p>
 
 								</div>
@@ -151,24 +151,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="grids_bottom">
 		<div class="style-grids">
 			<div class="col-md-6 style-grid style-grid-1">
-				<img src="images/b1.jpg" alt="shoe">
+				<img src="<?php echo base_url('assets/images/img1.png');?>" alt="shoe">
 			</div>
 		</div>
 		<div class="col-md-6 style-grid style-grid-2">
 			<div class="style-image-1_info">
 				<div class="style-grid-2-text_info">
-					<h3>Nike DOWNSHIFTER</h3>
-					<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.sed quia non numquam eius modi
-						tempora incidunt ut labore et dolore .</p>
+					<h3>Terry Palmer Eternal</h3>
+					<p>Cari handuk tanpa motif dari Terry Palmer? Maison de Palmer juga menyediakan handuk Terry Palmer Eternal! Tersedia dalam enam pilihan warna; purple, maroon, brown, green, yellow, dan mocca, serta hadir dalam tiga ukuran.</p>
 					<div class="shop-button">
-						<a href="shop.html">Shop Now</a>
+						<a href="shop.html">Lihat Detail</a>
 					</div>
 				</div>
 			</div>
 			<div class="style-image-2">
-				<img src="images/b2.jpg" alt="shoe">
+				<img src="<?php echo base_url('assets/images/img2.png');?>" alt="shoe">
 				<div class="style-grid-2-text">
-					<h3>Air force</h3>
+					<h3>Tery Palmer Eternal</h3>
 				</div>
 			</div>
 		</div>
@@ -182,36 +181,34 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="col-md-6 grids_sec_2_left">
 				<div class="grid_sec_info">
 					<div class="style-grid-2-text_info">
-						<h3>Sneakers</h3>
-						<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.sed quia non numquam eius modi
-							tempora incidunt ut labore .</p>
+						<h3>Terry Palmer Batik</h3>
+						<p>Handuk Terry Palmer Batik yang cocok untuk Seserahan <br><br><br><br></p>
 						<div class="shop-button">
-							<a href="shop.html">Shop Now</a>
+							<a href="shop.html">Lihat Detail</a>
 						</div>
 					</div>
 				</div>
 				<div class="style-image-2">
-					<img src="images/b4.jpg" alt="shoe">
+					<img src="<?php echo base_url('assets/images/img3.png');?>" alt="shoe">
 					<div class="style-grid-2-text">
-						<h3>Air force</h3>
+						<h3>Terry Palmer Batik</h3>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 grids_sec_2_left">
 
 				<div class="style-image-2">
-					<img src="images/b3.jpg" alt="shoe">
+					<img src="<?php echo base_url('assets/images/img4.png');?>" alt="shoe">
 					<div class="style-grid-2-text">
-						<h3>Air force</h3>
+						<h3>Terry Palmer Premium</h3>
 					</div>
 				</div>
 				<div class="grid_sec_info last">
 					<div class="style-grid-2-text_info">
-						<h3>Sneakers</h3>
-						<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias consequatur.sed quia non numquam eius modi
-							tempora incidunt ut labore .</p>
+						<h3>Terry Palmer Premium</h3>
+						<p>Dirancang dengan material yang premium, desain eksklusif, dan anti-bakteri, handuk Terry Palmer Premium menjadi produk paling dicari oleh masyarakat Indonesia. Kebanyakan customer kami sudah mulai kesulitan mencari produk ini di pasaran.</p>
 						<div class="shop-button two">
-							<a href="shop.html">Shop Now</a>
+							<a href="shop.html">Lihat Detail</a>
 						</div>
 					</div>
 				</div>
@@ -223,7 +220,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- /Properties -->
 	<div class="mid_slider_w3lsagile">
 		<div class="col-md-3 mid_slider_text">
-			<h5>Some More Shoes</h5>
+			<h5>Some Creatives</h5>
 		</div>
 		<div class="col-md-9 mid_slider_info">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -238,64 +235,64 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="item active">
 						<div class="row">
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g1.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide1.jpg');?>" alt="Image" style="max-width:100%;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g2.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide2.jpg');?>" alt="Image" style="max-width:100%;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g3.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide3.jpg');?>" alt="Image" style="max-width:100%;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g4.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="row">
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g5.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g6.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g2.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g1.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide4.jpg');?>" alt="Image" style="max-width:100%;"></div>
 							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="row">
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g1.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide5.jpg');?>" alt="Image" style="max-width:100%;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g2.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide6.jpg');?>" alt="Image" style="max-width:100%;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g3.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide7.jpg');?>" alt="Image" style="max-width:100%;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g4.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide8.jpg');?>" alt="Image" style="max-width:100%;"></div>
 							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="row">
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g1.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide9.jpg');?>" alt="Image" style="max-width:100%;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g2.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide10.jpg');?>" alt="Image" style="max-width:100%;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g3.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide11.jpg');?>" alt="Image" style="max-width:100%;"></div>
 							</div>
 							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g4.jpg" alt="Image" style="max-width:100%;"></div>
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide12.jpg');?>" alt="Image" style="max-width:100%;"></div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="row">
+							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide13.jpg');?>" alt="Image" style="max-width:100%;"></div>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide14.jpg');?>" alt="Image" style="max-width:100%;"></div>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide15.jpg');?>" alt="Image" style="max-width:100%;"></div>
+							</div>
+							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
+								<div class="thumbnail"><img src="<?php echo base_url('assets/images/slide/Slide16.jpg');?>" alt="Image" style="max-width:100%;"></div>
 							</div>
 						</div>
 					</div>
@@ -336,8 +333,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="footer_agileinfo_w3">
 		<div class="footer_inner_info_w3ls_agileits">
 			<div class="col-md-3 footer-left">
-				<h2><a href="index.html"><span>D</span>owny Shoes </a></h2>
-				<p>Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.</p>
+				<h2><a href="index.html"><span>Maison</span><i>de</i> Palmer </a></h2>
+				<p>MAISON de PALMER sebagai distributor resmi Terry Palmer.</p>
 				<ul class="social-nav model-3d-0 footer-social social two">
 					<li>
 						<a href="#" class="facebook">
@@ -387,7 +384,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</div>
 								<div class="address-right">
 									<h6>Phone Number</h6>
-									<p>+1 234 567 8901</p>
+									<p><a href="tel:(022) 4266651">(022) 4266651</a></p>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
@@ -397,7 +394,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</div>
 								<div class="address-right">
 									<h6>Email Address</h6>
-									<p>Email :<a href="mailto:example@email.com"> mail@example.com</a></p>
+									<p>Email :<a href="mailto:info@maisondepalmer.com">info@maisondepalmer.com</a></p>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
@@ -407,7 +404,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</div>
 								<div class="address-right">
 									<h6>Location</h6>
-									<p>Broome St, NY 10002,California, USA.
+									<p> <a href="http://maps.google.com/maps?q=jalan+dr.+cipto+no.+28,+bandung+-+indonesia">Jalan Dr. Cipto no. 28, Bandung - INDONESIA</a> 
 
 									</p>
 								</div>
@@ -416,25 +413,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 					</div>
 					<div class="col-md-3 sign-gd flickr-post">
-						<h4>Flickr <span>Posts</span></h4>
-						<ul>
-							<li><a href="single.html"><img src="images/t1.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t2.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t3.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t4.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t1.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t2.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t3.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t2.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t4.jpg" alt=" " class="img-responsive" /></a></li>
-						</ul>
+						
 					</div>
 					<div class="clearfix"></div>
 				</div>
 			</div>
 			<div class="clearfix"></div>
 
-			<p class="copy-right-w3ls-agileits">&copy 2018 Downy Shoes. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+			<p class="copy-right-w3ls-agileits">&copy 2019 Maison de Palmer. All rights reserved </p>
 		</div>
 	</div>
 	</div>

@@ -502,7 +502,7 @@ li.dropdown.act a.w3_icons_act {
     padding: 17em 0em 0 0em;
 }
 .banner-info-wthree   h3 {
-	font-size:13em;
+	font-size:5em;
 	color: #fff;
 	font-weight:700;
 	letter-spacing: 1px;
@@ -730,7 +730,7 @@ li.dropdown.act a.w3_icons_act {
 }
 
 .style-grid-1 img {
-	height: 792px;
+	height: 908px;
 }
 
 .style-grid-1-text, .style-grid-2-text {
@@ -1395,7 +1395,7 @@ p.head_para {
         height: 440px;
     }
     .banner-info-wthree    h3 {
-      font-size: 11em;
+      font-size: 5em;
     }
     .banner-top,.banner-top1,.banner-top2,.banner-top3{
         min-height:700px;
