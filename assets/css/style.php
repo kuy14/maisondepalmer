@@ -1216,7 +1216,7 @@ color: #2fdab8;
 }
 /*-- //footer --*/
 .banner_top.innerpage {
-    background: url(../images/banner3.jpg) no-repeat 0px -221px;
+    background: url(../images/slider2.png) no-repeat 0px -221px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

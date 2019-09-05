@@ -21,5 +21,9 @@ class Home extends CI_Controller
 		$data['produk'] = $this->mdMaison->tampil_produk();
 
 		$this->load->view('produk',$data);
-	}
+    }
+    public function about()
+    {
+        $this->load->view('about');
+    }
 }

@@ -41,14 +41,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 			<div class="header_agileits">
 				<div class="logo">
-					<a class="navbar-brand" href="index.html"><img src="<?php echo base_url('assets/images/logo_hitam.png');?>" width="300" height="42" alt=""></a>
+					<a class="navbar-brand" href="index.html"><img src="<?php echo base_url('assets/images/logo_putih.png');?>" width="324" height="52" alt=""></a>
 				</div>
 				<div class="overlay overlay-contentpush">
 					<button type="button" class="overlay-close"><i class="fa fa-times" aria-hidden="true"></i></button>
 					<nav>
 						<ul>
 							<li><a href="index.html" class="active">Home</a></li>
-							<li><a href="about.html">About</a></li>
+							<li><a href="<?php echo base_url('Home/about');?>">About</a></li>
 							<li><a href="404.html">Team</a></li>
 							<li><a href="shop.html">Shop Now</a></li>
 							<li><a href="contact.html">Contact</a></li>
