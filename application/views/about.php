@@ -41,7 +41,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="wrapper_top_w3layouts">
 			<div class="header_agileits">
 				<div class="logo inner_page_log">
-					<h1><a class="navbar-brand" href="index.html"><span>Downy</span> <i>Shoes</i></a></h1>
+				<a class="navbar-brand" href="index.html"><img src="<?php echo base_url('assets/images/logo_putih.png');?>" width="324" height="52" alt=""></a>
 				</div>
 				<div class="overlay overlay-contentpush">
 					<button type="button" class="overlay-close"><i class="fa fa-times" aria-hidden="true"></i></button>
@@ -105,10 +105,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="ads-grid_shop">
 		<div class="shop_inner_inf">
 			<h3 class="head">About Us</h3>
-			<p class="head_para">Add Some Description</p>
 			<div class="inner_section_w3ls">
 				<div class="col-md-6 news-left">
-					<img src="images/ab.jpg" alt=" " class="img-responsive">
+					<img src="<?php echo base_url('assets/images/galeri.jpg');?>" alt=" " class="img-responsive">
 				</div>
 				<div class="col-md-6 news-right">
 					<h4>History of Maison de Palmer</h4>
@@ -132,14 +131,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<h4 class="panel-title asd">
 								<a class="pa_italic" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
 								    aria-controls="collapseOne">
-							  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>assumenda est cliche voluptate
+							  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Menjadi Sponsor Miss World
 							</a>
 							</h4>
 						</div>
 						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 							<div class="panel-body panel_text">
-								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-								cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							Terry Palmer juga telah membuat bangga Indonesia dengan melakukan ekspor ke mancanegara dan pada tahun 2013 Terry Palmer resmi menjadi sponsor utama Miss World.
 							</div>
 						</div>
 					</div>
@@ -148,14 +146,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<h4 class="panel-title asd">
 								<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
 								    aria-controls="collapseTwo">
-							  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Itaque earum rerum
+							  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Distributor Resmi Terry Palmer
 							</a>
 							</h4>
 						</div>
 						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 							<div class="panel-body panel_text">
-								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-								cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							Dikarenakan permintaan pasar yang kian meningkat dan produk-produknya yang terus berkembang, maka tahun 2018
+MAISON de PALMER sebagai distributor resmi Terry Palmer pun melakukan pembaharuan.
 							</div>
 						</div>
 					</div>
@@ -164,30 +162,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<h4 class="panel-title asd">
 								<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
 								    aria-controls="collapseThree">
-							  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>autem accusamus terry qui
+							  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Kantor & Galeri Maison de Palmer
 							</a>
 							</h4>
 						</div>
 						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 							<div class="panel-body panel_text">
-								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-								cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab" id="headingThree">
-							<h4 class="panel-title asd">
-								<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
-								    aria-controls="collapseThree">
-							  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>autem accusamus terry qui
-							</a>
-							</h4>
-						</div>
-						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-							<div class="panel-body panel_text">
-								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-								cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							Salah satunya yaitu dengan didirikannya kantor pusat MAISON de PALMER dan dihadirkannya juga satu-satunya galeri produk Terry Palmer yang berkualitas di Jl. Dr.Cipto 28, Bandung, Jawa Barat – Indonesia
 							</div>
 						</div>
 					</div>
@@ -197,253 +178,63 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 		<div class="col-md-6 mid_services_img">
 			<div class="bar-grids">
-				<h3 class="heading two three">Our Skills</h3>
-				<div class="skill_info">
-					<h6>Development<span> 95% </span></h6>
-					<div class="progress">
-						<div class="progress-bar progress-bar-striped active" style="width: 95%">
+			<h3 class="heading two">&nbsp;</h3>
+			<div class="according_info">
+				<div class="panel-group about_panel" id="accordion" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingOne">
+							<h4 class="panel-title asd">
+								<a class="pa_italic" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true"
+								    aria-controls="collapseOne">
+							  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Menjadi Sponsor Miss World
+							</a>
+							</h4>
+						</div>
+						<div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							<div class="panel-body panel_text">
+							Terry Palmer has also made Indonesia proud by doing exports to countries in the year 2013 Terry Palmer officially became the main sponsor of Miss World.
+							</div>
 						</div>
 					</div>
-					<h6>Pricing<span> 85% </span></h6>
-					<div class="progress">
-						<div class="progress-bar progress-bar-striped active" style="width: 85%">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingTwo">
+							<h4 class="panel-title asd">
+								<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false"
+								    aria-controls="collapseTwo">
+							  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Distributor Resmi Terry Palmer
+							</a>
+							</h4>
+						</div>
+						<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+							<div class="panel-body panel_text">
+							Due to increasing market demand and its growing products, in 2018 MAISON de PALMER as Terry Palmer’s official distributor also made an update.
+							</div>
 						</div>
 					</div>
-					<h6>Production <span>90% </span></h6>
-					<div class="progress">
-						<div class="progress-bar progress-bar-striped active" style="width: 90%">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingThree">
+							<h4 class="panel-title asd">
+								<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false"
+								    aria-controls="collapseThree">
+							  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Office & Gallery of Maison de Palmer
+							</a>
+							</h4>
 						</div>
-					</div>
-					<h6>Advertising <span>86% </span></h6>
-					<div class="progress prgs-last">
-						<div class="progress-bar progress-bar-striped active" style="width: 86%">
+						<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+							<div class="panel-body panel_text">
+							One of them is the establishment of MAISON de PALMER headquarters and presented also the only gallery of quality Terry Palmer products on Jl. Dr. Cipto 28 Bandung, West Java – Indonesia
+							</div>
 						</div>
 					</div>
 				</div>
+			</div>
 			</div>
 
 		</div>
 		<div class="clearfix"> </div>
 	</div>
 	<!-- /Properties -->
-	<div class="mid_slider_w3lsagile">
-		<div class="col-md-3 mid_slider_text">
-			<h5>Some More Shoes</h5>
-		</div>
-		<div class="col-md-9 mid_slider_info">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<!-- Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<li data-target="#myCarousel" data-slide-to="1" class=""></li>
-					<li data-target="#myCarousel" data-slide-to="2" class=""></li>
-					<li data-target="#myCarousel" data-slide-to="3" class=""></li>
-				</ol>
-				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<div class="row">
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g1.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g2.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g3.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g4.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="row">
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g5.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g6.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g2.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g1.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="row">
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g1.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g2.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g3.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g4.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="row">
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g1.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g2.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g3.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-							<div class="col-md-3 col-sm-3 col-xs-3 slidering">
-								<div class="thumbnail"><img src="images/g4.jpg" alt="Image" style="max-width:100%;"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-			<span class="fa fa-chevron-left" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-			<span class="fa fa-chevron-right" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-				<!-- The Modal -->
-
-			</div>
-		</div>
-
-		<div class="clearfix"> </div>
-	</div>
-	<!--//banner -->
-
-	<!-- /newsletter-->
-	<div class="newsletter_w3layouts_agile">
-		<div class="col-sm-6 newsleft">
-			<h3>Sign up for Newsletter !</h3>
-		</div>
-		<div class="col-sm-6 newsright">
-			<form action="#" method="post">
-				<input type="email" placeholder="Enter your email..." name="email" required="">
-				<input type="submit" value="Submit">
-			</form>
-		</div>
-
-		<div class="clearfix"></div>
-	</div>
-	<!-- //newsletter-->
-
-	<!-- footer -->
-	<div class="footer_agileinfo_w3">
-		<div class="footer_inner_info_w3ls_agileits">
-			<div class="col-md-3 footer-left">
-				<h2><a href="index.html"><span>D</span>owny Shoes </a></h2>
-				<p>Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.</p>
-				<ul class="social-nav model-3d-0 footer-social social two">
-					<li>
-						<a href="#" class="facebook">
-							<div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-							<div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-						</a>
-					</li>
-					<li>
-						<a href="#" class="twitter">
-							<div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-							<div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-						</a>
-					</li>
-					<li>
-						<a href="#" class="instagram">
-							<div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-							<div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-						</a>
-					</li>
-					<li>
-						<a href="#" class="pinterest">
-							<div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
-							<div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div class="col-md-9 footer-right">
-				<div class="sign-grds">
-					<div class="col-md-4 sign-gd">
-						<h4>Our <span>Information</span> </h4>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="404.html">Services</a></li>
-							<li><a href="404.html">Short Codes</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-
-					<div class="col-md-5 sign-gd-two">
-						<h4>Store <span>Information</span></h4>
-						<div class="address">
-							<div class="address-grid">
-								<div class="address-left">
-									<i class="fa fa-phone" aria-hidden="true"></i>
-								</div>
-								<div class="address-right">
-									<h6>Phone Number</h6>
-									<p>+1 234 567 8901</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="address-grid">
-								<div class="address-left">
-									<i class="fa fa-envelope" aria-hidden="true"></i>
-								</div>
-								<div class="address-right">
-									<h6>Email Address</h6>
-									<p>Email :<a href="mailto:example@email.com"> mail@example.com</a></p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<div class="address-grid">
-								<div class="address-left">
-									<i class="fa fa-map-marker" aria-hidden="true"></i>
-								</div>
-								<div class="address-right">
-									<h6>Location</h6>
-									<p>Broome St, NY 10002,California, USA.
-
-									</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 sign-gd flickr-post">
-						<h4>Flickr <span>Posts</span></h4>
-						<ul>
-							<li><a href="single.html"><img src="images/t1.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t2.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t3.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t4.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t1.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t2.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t3.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t2.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="single.html"><img src="images/t4.jpg" alt=" " class="img-responsive" /></a></li>
-						</ul>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-
-			<p class="copy-right-w3ls-agileits">&copy 2018 Downy Shoes. All rights reserved | Design by <a href="http://w3layouts.com/">w3layouts</a></p>
-		</div>
-	</div>
-	</div>
+	<?php require_once('footer.php');?>
 	<!-- //footer -->
 <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 	<!-- js -->
