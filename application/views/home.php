@@ -22,7 +22,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		}
 	</script>
 	<!-- //custom-theme -->
-	<link href="<?php echo base_url('assets/css/bootstrap.css') ?>" rel="stylesheet" type="text/css" media="all" />
+	<link href="<?php echo base_url("assets/css/bootstrap.css") ?>" rel="stylesheet" type="text/css" media="all" />
 	<link rel="stylesheet" href="<?php echo base_url('css/shop.css') ?>" type="text/css" media="screen" property="" />
 	<link href="<?php echo base_url('assets/css/style7.css') ?>" rel="stylesheet" type="text/css" media="all" />
 	<link href="<?php echo base_url('assets/css/style.css') ?>" rel="stylesheet" type="text/css" media="all" />
