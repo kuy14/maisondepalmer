@@ -38,7 +38,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- banner -->
 	<div class="banner_top" id="home">
 		<div class="wrapper_top_w3layouts">
-
 			<div class="header_agileits">
 				<div class="logo">
 					<a class="navbar-brand" href="index.html"><img src="<?php echo base_url('assets/images/logo_putih.png');?>" width="324" height="52" alt=""></a>
@@ -88,12 +87,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="clearfix"></div>
 			</div>
 			<!-- /slider -->
+			<?php foreach ($slider as $s) { ?>
 			<div class="slider">
 				<div class="callbacks_container">
 					<ul class="rslides callbacks callbacks1" id="slider4">
 
 						<li>
-							<div class="banner-top2">
+							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar3) ?>) no-repeat 0px 0px;" class="banner-top2">
 								<div class="banner-info-wthree">
 									<h3>Terry Palmer</h3>
 									<p>See how good they feel.</p>
@@ -103,7 +103,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 						</li>
 						<li>
-							<div class="banner-top3">
+							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar4) ?>) no-repeat 0px 0px;" class="banner-top3">
 								<div class="banner-info-wthree">
 									<h3>Terry Palmer</h3>
 									<p>For All Walks of Life.</p>
@@ -113,7 +113,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 						</li>
 						<li>
-							<div class="banner-top">
+							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar1) ?>) no-repeat 0px 0px;" class="banner-top">
 								<div class="banner-info-wthree">
 									<h3>Terry Palmer</h3>
 									<p>See how good they feel.</p>
@@ -123,7 +123,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 						</li>
 						<li>
-							<div class="banner-top1">
+							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar2) ?>) no-repeat 0px 0px;" class="banner-top1">
 								<div class="banner-info-wthree">
 									<h3>Terry Palmer</h3>
 									<p>For All Walks of Life.</p>
@@ -136,6 +136,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="clearfix"> </div>
 			</div>
+			<?php } ?>
 			<!-- //slider -->
 			<ul class="top_icons">
 				<li><a href="#"><span class="fa fa-facebook" aria-hidden="true"></span></a></li>

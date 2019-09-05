@@ -20,7 +20,7 @@ class mdMaison extends CI_Model
 
     public function tampil_slider()
     {
-        return $this->db->get('slider')->result();
+        return $this->db->get('slider');
     }
 
     public function tampil_produk()

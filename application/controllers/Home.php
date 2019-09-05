@@ -11,7 +11,7 @@ class Home extends CI_Controller
 
 	public function index()
 	{
-		$data['slider'] = $this->mdMaison->tampil_slider();
+		$data['slider'] = $this->mdMaison->tampil_slider()->result();
 
 		$this->load->view('home',$data);
 	}

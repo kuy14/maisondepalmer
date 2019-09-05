@@ -18,7 +18,8 @@ class ConfigAdmin extends CI_Controller
     public function index()
     {
         $data['slider'] = $this->mdMaison->tampil_slider();
-        $this->load->view('admin/v_slider_admin'$data);
+
+        $this->load->view('admin/v_slider_admin',$data);
     }
 
     public function edit_gambar($id)
@@ -28,7 +29,7 @@ class ConfigAdmin extends CI_Controller
         $slide2 = $i->post('slide2');
         $slide3 = $i->post('slide3');
 
-        $where = array('id' => $id);
+        $where = array('id_slider' => $id);
         $data['slider'] = $this->mdMaison->edit($where,'slider')->result();
 
         if (isset($slide1)) {
@@ -43,14 +44,9 @@ class ConfigAdmin extends CI_Controller
 
     public function update_gambar()
     {
-        $config['upload_path'] = './assets/img/';
-        $config['allowed_types'] = 'png|jpeg|jpg';
-
-        $this->upload->initialize($config);
-
         $i = $this->input;
         $id = $i->post('id');
-        $where = array('id' => $id);
+        $where = array('id_slider' => $id);
 
         $save1 = $i->post('save1');
         $save2 = $i->post('save2');
@@ -65,7 +61,12 @@ class ConfigAdmin extends CI_Controller
         $gambars3 = $i->post('gambars3');
         $link3 = $i->post('link3');
 
-        if (isset($save1)) {            
+        if (isset($save1)) {    
+            $config['upload_path'] = './assets/images/';
+            $config['allowed_types'] = 'png|jpeg|jpg';
+            $config['file_name'] = 'slider.png';
+
+            $this->upload->initialize($config);           
             if(!empty($_FILES['gbr1']['name']))
             {    
                 if ($this->upload->do_upload('gbr1')) {
@@ -80,7 +81,7 @@ class ConfigAdmin extends CI_Controller
                     $this->mdMaison->update_data($where,$data,'slider');
                     if($gambars1 != "")
                     {
-                        unlink('./assets/img/'.$gambars1);
+                        unlink('./assets/images/'.$gambars1);
                     }
                     redirect('ConfigAdmin');
                 }
@@ -104,7 +105,7 @@ class ConfigAdmin extends CI_Controller
                     
                     if($gambars2 != "")
                     {
-                        unlink('./assets/img/'.$gambars2);
+                        unlink('./assets/images/'.$gambars2);
                     }
                     redirect('ConfigAdmin');
                 }
@@ -128,7 +129,7 @@ class ConfigAdmin extends CI_Controller
                     
                     if($gambars3 != "")
                     {
-                        unlink('./assets/img/'.$gambars3);
+                        unlink('./assets/images/'.$gambars3);
                     }
                     redirect('ConfigAdmin');
                 }
