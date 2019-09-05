@@ -28,7 +28,7 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <img src="<?php echo base_url("assets/img/" . $h->gambar1) ?>" alt="" width="100%">
+                                <img src="<?php echo base_url("assets/img/" . $h->gambar4) ?>" alt="" width="100%">
                             </div>
 
                         </div>
@@ -36,16 +36,16 @@
                     <div class="col-8 col-lg-3 dash-event-right">
                         <div class="row">
                             <div class="col-lg-12">
-                                <h6>Edit Event 1</h6>
-                                <div class="form-label-group"><input value="<?php echo $h->title1 ?>" type="text" name="title1" class="form-control" placeholder="title1" required autofocus><label for="title1">Change Title Event</label></div>
-                                <label for="file-upload" style="font-size:0.8em;">Upload Slider 1 Image</label>
-                                <input type="file" name="gbr1" id="input-file-now" class="dropify" data-allowed-file-extensions="jpg png jpeg" data-max-file-size="10M" data-height="60">
+                                <h6>Edit Event 4</h6>
+                                <div class="form-label-group"><input value="<?php echo $h->title4 ?>" type="text" name="title4" class="form-control" placeholder="title4" required autofocus><label for="title4">Change Title Event</label></div>
+                                <label for="file-upload" style="font-size:0.8em;">Upload Slider 4 Image</label>
+                                <input type="file" name="gbr4" id="input-file-now" class="dropify" data-allowed-file-extensions="jpg png jpeg" data-max-file-size="10M" data-height="60">
                                 <p style="color:rgb(134, 135, 132);font-size: 0.8em;">*Only accept *.jpg | *.jpeg | *.png file format</p>
                                 <div class="alert alert-warning" role="alert" style="font-size: 0.8em;">
                                     We Recommend minimum <strong>2560x1080</strong> or more of picture resolution for fit to any devices display
                                 </div>
-                                <input type="hidden" name="gambars1" value="<?php echo $h->gambar1; ?>">
-                                <input type="submit" name="save1" value="Save Event 1" class="btn btn-success">
+                                <input type="hidden" name="gambars4" value="<?php echo $h->gambar4; ?>">
+                                <input type="submit" name="save4" value="Save Event 4" class="btn btn-success">
                             </div>
 
                         </div>

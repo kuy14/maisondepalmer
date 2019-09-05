@@ -28,6 +28,7 @@ class ConfigAdmin extends CI_Controller
         $slide1 = $i->post('slide1');
         $slide2 = $i->post('slide2');
         $slide3 = $i->post('slide3');
+        $slide4 = $i->post('slide4');
 
         $where = array('id_slider' => $id);
         $data['slider'] = $this->mdMaison->edit($where,'slider')->result();
@@ -38,12 +39,19 @@ class ConfigAdmin extends CI_Controller
             $this->load->view('admin/v_slider_edit2',$data);
         } if (isset($slide3)) {
             $this->load->view('admin/v_slider_edit3',$data);
+        } if (isset($slide4)) {
+            $this->load->view('admin/v_slider_edit4',$data);
         }
         
     }
 
     public function update_gambar()
     {
+        $config['upload_path'] = './assets/images/';
+        $config['allowed_types'] = 'png|jpeg|jpg';
+
+        $this->upload->initialize($config); 
+
         $i = $this->input;
         $id = $i->post('id');
         $where = array('id_slider' => $id);
@@ -51,22 +59,18 @@ class ConfigAdmin extends CI_Controller
         $save1 = $i->post('save1');
         $save2 = $i->post('save2');
         $save3 = $i->post('save3');
+        $save4 = $i->post('save4');
+
         $title1 = $i->post('title1');
         $gambars1 = $i->post('gambars1');
-        $link1 = $i->post('link1');
         $title2 = $i->post('title2');
         $gambars2 = $i->post('gambars2');
-        $link2 = $i->post('link2');
         $title3 = $i->post('title3');
         $gambars3 = $i->post('gambars3');
-        $link3 = $i->post('link3');
+        $title4 = $i->post('title4');
+        $gambars4 = $i->post('gambars4');
 
-        if (isset($save1)) {    
-            $config['upload_path'] = './assets/images/';
-            $config['allowed_types'] = 'png|jpeg|jpg';
-            $config['file_name'] = 'slider.png';
-
-            $this->upload->initialize($config);           
+        if (isset($save1)) {              
             if(!empty($_FILES['gbr1']['name']))
             {    
                 if ($this->upload->do_upload('gbr1')) {
@@ -75,8 +79,7 @@ class ConfigAdmin extends CI_Controller
 
                     $data = array(
                         'title1' => $title1,
-                        'gambar1' => $gambar1,
-                        'link1' => $link1);
+                        'gambar1' => $gambar1);
                     
                     $this->mdMaison->update_data($where,$data,'slider');
                     if($gambars1 != "")
@@ -98,8 +101,7 @@ class ConfigAdmin extends CI_Controller
 
                     $data = array(
                         'title2' => $title2,
-                        'gambar2' => $gambar2,
-                        'link2' => $link2);
+                        'gambar2' => $gambar2);
                     
                     $this->mdMaison->update_data($where,$data,'slider');
                     
@@ -122,8 +124,7 @@ class ConfigAdmin extends CI_Controller
 
                     $data = array(
                         'title3' => $title3,
-                        'gambar3' => $gambar3,
-                        'link3' => $link3);
+                        'gambar3' => $gambar3);
                     
                     $this->mdMaison->update_data($where,$data,'slider');
                     
@@ -137,10 +138,30 @@ class ConfigAdmin extends CI_Controller
 				    echo 'alert("Gagal mengubah gambar, pastikan gambar yang anda masukkan benar :(")';
                     echo '</script>';
             }
-        } else if (isset($finis)) {
-            redirect('ConfigAdmin');
+        } else if (isset($save4)) {
+            if(!empty($_FILES['gbr4']['name']))
+            {      
+                if ($this->upload->do_upload('gbr4')) {
+                    $gbr4 = $this->upload->data();
+                    $gambar4 = $gbr4['file_name'];
+
+                    $data = array(
+                        'title4' => $title4,
+                        'gambar4' => $gambar4);
+                    
+                    $this->mdMaison->update_data($where,$data,'slider');
+                    
+                    if($gambars4 != "")
+                    {
+                        unlink('./assets/images/'.$gambars4);
+                    }
+                    redirect('ConfigAdmin');
+                }
+                    echo '<script language="javascript">';
+				    echo 'alert("Gagal mengubah gambar, pastikan gambar yang anda masukkan benar :(")';
+                    echo '</script>';
+            }
         }
-        
     }
 }
 ?>

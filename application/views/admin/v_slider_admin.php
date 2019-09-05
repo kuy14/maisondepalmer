@@ -15,6 +15,9 @@
             <li>
                 <input type="submit" value="Edit Slider 3" name="slide3">  
             </li>
+            <li>
+                <input type="submit" value="Edit Slider 4" name="slide4">
+            </li>
         </ul>
     </form>
 </body>
