@@ -23,11 +23,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script>
 	<!-- //custom-theme -->
 	<link href="<?php echo base_url("assets/css/bootstrap.css") ?>" rel="stylesheet" type="text/css" media="all" />
-	<link rel="stylesheet" href="<?php echo base_url('css/shop.css') ?>" type="text/css" media="screen" property="" />
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/shop.css') ?>" type="text/css" media="screen" property="" />
 	<link href="<?php echo base_url('assets/css/style7.css') ?>" rel="stylesheet" type="text/css" media="all" />
 	<link href="<?php echo base_url('assets/css/style.css') ?>" rel="stylesheet" type="text/css" media="all" />
 	<!-- font-awesome-icons -->
-	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/font-awesome.css');?>" rel="stylesheet">
 	<!-- //font-awesome-icons -->
 	<link href="//fonts.googleapis.com/css?family=Montserrat:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
 	    rel="stylesheet">
@@ -41,7 +41,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 			<div class="header_agileits">
 				<div class="logo">
-					<h1><a class="navbar-brand" href="index.html"><span>Downy</span> <i>Shoes</i></a></h1>
+					<a class="navbar-brand" href="index.html"><img src="<?php echo base_url('assets/images/logo_hitam.png');?>" width="300" height="42" alt=""></a>
 				</div>
 				<div class="overlay overlay-contentpush">
 					<button type="button" class="overlay-close"><i class="fa fa-times" aria-hidden="true"></i></button>
@@ -64,7 +64,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<form action="#" method="post" class="last">
 							<input type="hidden" name="cmd" value="_cart">
 							<input type="hidden" name="display" value="1">
-							<button class="top_shoe_cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+							
 						</form>
 					</div>
 
@@ -441,15 +441,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- //footer -->
     <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 	<!-- js -->
-	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/jquery-2.1.4.min.js'); ?>"></script>
 	<!-- //js -->
 	<!-- /nav -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<script src="js/classie.js"></script>
-	<script src="js/demo1.js"></script>
+	<script src="<?php echo base_url('assets/js/modernizr-2.6.2.min.js');?>"></script>
+	<script src="<?php echo base_url('assets/js/classie.js');?>"></script>
+	<script src="<?php echo base_url('assets/js/demo1.js');?>"></script>
 	<!-- //nav -->
 	<!-- cart-js -->
-	<script src="js/minicart.js"></script>
+	<script src="<?php echo base_url('assets/js/minicart.js');?>"></script>
 	<script>
 		shoe.render();
 
@@ -465,9 +465,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script>
 	<!-- //cart-js -->
 	<!--search-bar-->
-	<script src="js/search.js"></script>
+	<script src="<?php echo base_url('assets/js/search.js');?>"></script>
 	<!--//search-bar-->
-	<script src="js/responsiveslides.min.js"></script>
+	<script src="<?php echo base_url('assets/js/responsiveslides.min.js');?>"></script>
 	<script>
 		$(function () {
 			$("#slider4").responsiveSlides({
@@ -487,8 +487,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script>
 	<!-- js for portfolio lightbox -->
 	<!-- start-smoth-scrolling -->
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/move-top.js');?>"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/easing.js');?>"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function ($) {
 			$(".scroll").click(function (event) {
@@ -501,7 +501,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script>
 	<!-- //end-smoth-scrolling -->
 
-	<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url('assets/js/bootstrap-3.1.1.min.js');?>"></script>
 
 
 </body>
