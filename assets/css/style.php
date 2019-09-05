@@ -458,7 +458,7 @@ li.dropdown.act a.w3_icons_act {
 /*-- banner-top --*/
 
 .banner-top {
-	background: url(../images/slider1.jpg) no-repeat 0px 0px;
+	background: url(../images/slider1.png) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -468,7 +468,7 @@ li.dropdown.act a.w3_icons_act {
 }
 
 .banner-top1 {
-	background: url(../images/slider2.jpg) no-repeat 0px 0px;
+	background: url(../images/slider2.png) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -478,7 +478,7 @@ li.dropdown.act a.w3_icons_act {
 }
 
 .banner-top2 {
-	background: url(../images/slider3.jpg) no-repeat 0px 0px;
+	background: url(../images/slider3.png) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -488,7 +488,7 @@ li.dropdown.act a.w3_icons_act {
 }
 
 .banner-top3 {
-	background: url(../images/slider4.jpg) no-repeat 0px 0px;
+	background: url(../images/slider4.png) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
