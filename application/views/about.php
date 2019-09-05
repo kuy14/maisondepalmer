@@ -111,14 +111,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<img src="images/ab.jpg" alt=" " class="img-responsive">
 				</div>
 				<div class="col-md-6 news-right">
-					<h4>Welcome to our Downy Shoes</h4>
-					<p class="sub_p">Etiam faucibus viverra libero vel efficitur. Ut semper nisl ut laoreet ultrices. Maecenas dictum arcu purus, sit amet
-						volutpat purus viverra sit amet. Quisque lacinia quam sed tortor interdum, malesuada congue nunc ornare. Cum sociis
-						In semper lorem eget tortor pulvinar ultricies.
+					<h4>History of Maison de Palmer</h4>
+					<p class="sub_p">MAISON de PALMER didirikan tahun 2000 dan di tunjuk langsung sebagai distributor di Jawa Barat untuk produk handuk yang berkualitas tinggi, Terry Palmer. Menggunakan mesin berkualitas tinggi dan canggih, Terry Palmer pun menjadi salah satu produk handuk yang banyak dipilih oleh masyarakat Indonesia.
 					</p>
-					<p>Etiam faucibus viverra libero vel efficitur. Ut semper nisl ut laoreet ultrices. Maecenas dictum arcu purus, sit amet
-						volutpat purus viverra sit amet. Quisque lacinia quam sed tortor interdum, malesuada congue nunc ornare. Cum sociis
-						. In semper lorem eget tortor pulvinar ultricies.
+					<p><i>MAISON de PALMER was established in 2000 and appointed directly as a distributor in West Java for Terry Palmer’s high quality towel products. Using a high-quality and sophisticated machine, Terry Palmer became one of towel products that are chose by many people in Indonesia.</i>
 					</p>
 				</div>
 				<div class="clearfix"> </div>

@@ -93,7 +93,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<ul class="rslides callbacks callbacks1" id="slider4">
 
 						<li>
-							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar3) ?>) no-repeat 0px 0px;" class="banner-top2">
+							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar3) ?>) no-repeat 0px 0px;background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; -moz-background-size: cover; min-height: 750px;" class="banner-top2">
 								<div class="banner-info-wthree">
 									<h3>Terry Palmer</h3>
 									<p>See how good they feel.</p>
@@ -103,7 +103,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 						</li>
 						<li>
-							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar4) ?>) no-repeat 0px 0px;" class="banner-top3">
+							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar4) ?>) no-repeat 0px 0px;background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; -moz-background-size: cover; min-height: 750px;" class="banner-top3">
 								<div class="banner-info-wthree">
 									<h3>Terry Palmer</h3>
 									<p>For All Walks of Life.</p>
@@ -113,7 +113,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 						</li>
 						<li>
-							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar1) ?>) no-repeat 0px 0px;" class="banner-top">
+							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar1) ?>) no-repeat 0px 0px;background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; -moz-background-size: cover; min-height: 750px;" class="banner-top">
 								<div class="banner-info-wthree">
 									<h3>Terry Palmer</h3>
 									<p>See how good they feel.</p>
@@ -123,7 +123,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							</div>
 						</li>
 						<li>
-							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar2) ?>) no-repeat 0px 0px;" class="banner-top1">
+							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar2) ?>) no-repeat 0px 0px;background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; -moz-background-size: cover; min-height: 750px;" class="banner-top1">
 								<div class="banner-info-wthree">
 									<h3>Terry Palmer</h3>
 									<p>For All Walks of Life.</p>
