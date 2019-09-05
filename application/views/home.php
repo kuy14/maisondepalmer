@@ -95,8 +95,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li>
 							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar3) ?>) no-repeat 0px 0px;background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; -moz-background-size: cover; min-height: 750px;" class="banner-top2">
 								<div class="banner-info-wthree">
-									<h3>Terry Palmer</h3>
-									<p>See how good they feel.</p>
+									<h3><?php echo $s->title3 ?></h3>
+									<p><?php echo $s->sub3 ?></p>
 
 								</div>
 
@@ -105,8 +105,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li>
 							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar4) ?>) no-repeat 0px 0px;background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; -moz-background-size: cover; min-height: 750px;" class="banner-top3">
 								<div class="banner-info-wthree">
-									<h3>Terry Palmer</h3>
-									<p>For All Walks of Life.</p>
+									<h3><?php echo $s->title4 ?></h3>
+									<p><?php echo $s->sub4 ?></p>
 
 								</div>
 
@@ -115,8 +115,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li>
 							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar1) ?>) no-repeat 0px 0px;background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; -moz-background-size: cover; min-height: 750px;" class="banner-top">
 								<div class="banner-info-wthree">
-									<h3>Terry Palmer</h3>
-									<p>See how good they feel.</p>
+									<h3><?php echo $s->title1 ?></h3>
+									<p><?php echo $s->sub1 ?></p>
 
 								</div>
 
@@ -125,8 +125,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<li>
 							<div style="background: url(<?php echo base_url('assets/images/'.$s->gambar2) ?>) no-repeat 0px 0px;background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; -moz-background-size: cover; min-height: 750px;" class="banner-top1">
 								<div class="banner-info-wthree">
-									<h3>Terry Palmer</h3>
-									<p>For All Walks of Life.</p>
+									<h3><?php echo $s->title2 ?></h3>
+									<p><?php echo $s->sub2 ?></p>
 
 								</div>
 
