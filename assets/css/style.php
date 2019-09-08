@@ -715,7 +715,7 @@ li.dropdown.act a.w3_icons_act {
 }
 
 .callbacks_here a:after {
-	background: #fb383b;
+	background: #7fd3f7;
 }
 /*-- //slider --*/
 /*--/ grids_bottom --*/
@@ -788,19 +788,17 @@ li.dropdown.act a.w3_icons_act {
 .style-image-1_info {
     padding: 7em 5em;
     height: 321px;
-    background: #fb383b;
+    background: #bae1ff;
 }
 .style-grid-2-text_info h3 {
     font-size: 30px;
     text-align: left;
-    color: #FFF;
     margin-bottom: 20px;
     font-weight: 700;
     letter-spacing: 1px;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.41);
 }
 .style-grid-2-text_info p {
-    color: #fff;
     font-size: 1em;
     letter-spacing: 1px;
     line-height: 1.9em;
@@ -838,13 +836,13 @@ li.dropdown.act a.w3_icons_act {
 
 .grid_sec_info {
     padding: 7em 5em;
-    background: #fb383b;
+    background: #bae1ff;
 }
 .grid_sec_info.last {
-    background: #0a0a0a;
+    background: #b7effb;
 }
 .shop-button.two a {
-    background: #fb383b;
+    background: #7fd3f7;
 }
 button.top_shoe_cart {
     font-size: 1.2em;
@@ -922,12 +920,11 @@ button.top_shoe_cart {
 
 }
 .mid_slider_w3lsagile{
-    background: #fb383b;
+    background: #bae1ff;
 }
 .mid_slider_text h5 {
     font-size: 23px;
     margin-top: 121px;
-    color: #fff;
     letter-spacing: 1px;
     font-weight: 700;
     text-align: left;

@@ -47,10 +47,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<nav>
 						<ul>
 							<li><a href="index.html" class="active">Home</a></li>
-							<li><a href="<?php echo base_url('Home/about');?>">About</a></li>
-							<li><a href="404.html">Team</a></li>
-							<li><a href="<?php echo base_url('Home/product');?>">Shop Now</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="<?php echo base_url('Home/about');?>">About US</a></li>
+							<li><a href="<?php echo base_url('Home/produk');?>">Our Product</a></li>
+							<li><a href="<?php echo base_url('Home/contact');?>">Contact US</a></li>
 						</ul>
 					</nav>
 				</div>
