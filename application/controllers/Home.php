@@ -18,8 +18,8 @@ class Home extends CI_Controller
 
 	public function produk()
 	{
-		$data['produk'] = $this->mdMaison->tampil_produk();
-
+		$data['produk'] = $this->mdMaison->tampil_produk()->result();
+		
 		$this->load->view('produk',$data);
     }
     public function about()

@@ -111,7 +111,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											<img src="<?php echo base_url('assets/images/product/' . $p->gambar); ?>" alt="">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="<?php $varid = $p->id_produk ?>" class="link-product-add-cart" data-toggle="modal" data-target=".bd-example-modal-lg">Quick View </a>
+													<a href="<?php $varid = $p->id_produk; ?>" class="link-product-add-cart" data-toggle="modal" data-target=".bd-example-modal-lg">Quick View </a>
 												</div>
 											</div>
 										</div>
@@ -134,10 +134,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									</div>
 								</div>
 							</div>
+						<?php } ?>
 							<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 								<div class="modal-dialog modal-lg">
 									<div class="modal-content">
-									<img src="<?php echo base_url('assets/images/product/' . $p->gambar); ?>" alt="" width="100%">
+									<?php foreach ($produk as $varid => $v) { ?>
+										<img src="<?php echo base_url('assets/images/product/' . $v->gambar); ?>" alt="" width="100%">
 									</div>
 								</div>
 							</div>

@@ -25,7 +25,7 @@ class mdMaison extends CI_Model
 
     public function tampil_produk()
     {
-        return $this->db->get('produk')->result();
+        return $this->db->get('produk');
     }
 
     public function input_booking($data,$table)
