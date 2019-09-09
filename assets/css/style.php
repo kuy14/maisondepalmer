@@ -1573,7 +1573,8 @@ p.head_para {
         padding: 10em 0em 0 5em;
     }
 	.product-men.women_two {
-		margin: 0;
+        margin: 0;
+        margin-bottom: 30px;
 	}
     .callbacks_tabs {
         bottom: 16%;

@@ -58,38 +58,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 			<!-- //tittle heading -->
 			<!-- product left -->
-			<div class="side-bar col-md-3">
-				<div class="search-hotel">
-					<h3 class="agileits-sear-head">Search Here..</h3>
-					<form action="#" method="post">
-						<input type="search" placeholder="Product name..." name="search" required="">
-						<input type="submit" value=" ">
-					</form>
-				</div>
-
-				<!--preference -->
-				<div class="left-side">
-					<h3 class="agileits-sear-head">Occasion</h3>
-					<ul>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Eternal</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Premium</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Batik</span>
-						</li>
-					</ul>
-				</div>
-				<!-- // preference -->
-			</div>
+			
 			<!-- //product left -->
 			<!-- product right -->
-			<div class="left-ads-display col-md-9">
+			<h3 class="head" style="margin-bottom: 30px;">OUR PRODUCT</h3>
+
+			<div class="left-ads-display col-md-12 ">
+
 				<div class="wrapper_top_shop">
 					<div class="col-md-6 shop_left">
 						<img src="images/banner3.jpg" alt="">
@@ -111,7 +86,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 											<img src="<?php echo base_url('assets/images/product/' . $p->gambar); ?>" alt="">
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="<?php $varid = $p->id_produk; ?>" class="link-product-add-cart" data-toggle="modal" data-target=".bd-example-modal-lg">Quick View </a>
+													
 												</div>
 											</div>
 										</div>
@@ -135,16 +110,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</div>
 							</div>
 						<?php } ?>
-							<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-								<div class="modal-dialog modal-lg">
-									<div class="modal-content">
-									<?php foreach ($produk as $varid => $v) { ?>
-										<img src="<?php echo base_url('assets/images/product/' . $v->gambar); ?>" alt="" width="100%">
-									</div>
-								</div>
-							</div>
-						<?php } ?>
-						<!-- //mens -->
+							
 						<div class="clearfix"></div>
 
 					</div>

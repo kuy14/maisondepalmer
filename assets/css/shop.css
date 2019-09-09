@@ -302,7 +302,8 @@ p.sbmincart-empty-text {
     position: relative;
 }
 .product-men {
-    padding-left: 0;
+	padding-left: 0;
+	margin-bottom: 30px;
 }
 /*-- Model-Slider --*/
 /*-- effect on products --*/
