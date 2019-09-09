@@ -67,6 +67,15 @@ class mdMaison extends CI_Model
         $query = $this->db->get_where('produk', array('url' => $nama_url));
         return $query->row_array();
     }
+
+    public function search($keyword)
+	{
+		$this->db->select('*');
+		$this->db->from('produk');
+		$this->db->like('nama',$keyword);
+
+		return $this->db->get()->result();
+	}
 }
 
 ?>

@@ -21,7 +21,22 @@ class Home extends CI_Controller
 		$data['produk'] = $this->mdMaison->tampil_produk()->result();
 		
 		$this->load->view('produk',$data);
-    }
+	}
+	
+	public function search()
+	{
+		$i = $this->input;
+		$keyword = $i->post('Search');
+
+		if ($keyword) {
+			$data['produk'] = $this->mdMaison->search($keyword);
+	
+			$this->load->view('produk',$data);
+		} elseif ($keyword == 0) {
+			redirect('Home/produk');
+		}
+	}
+
     public function about()
     {
         $this->load->view('about');

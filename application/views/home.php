@@ -76,7 +76,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</ul>
 					</div>
 					<div id="cd-search" class="cd-search">
-						<form action="#" method="post">
+						<form action="<?php echo base_url('Home/search'); ?>" method="post">
 							<input name="Search" type="search" placeholder="Click enter after typing...">
 						</form>
 					</div>
