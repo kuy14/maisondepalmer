@@ -42,8 +42,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="inner_breadcrumb_agileits_w3">
 
 				<ul class="short">
-					<li><a href="index.html">Home</a><i>|</i></li>
-					<li>Shop</li>
+					<li><a href="<?php echo base_url('');?>">Home</a><i>|</i></li>
+					<li>Product</li>
 				</ul>
 			</div>
 		</div>

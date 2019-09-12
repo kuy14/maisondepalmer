@@ -117,27 +117,21 @@
 			<p>MAISON de PALMER sebagai distributor resmi Terry Palmer.</p>
 			<ul class="social-nav model-3d-0 footer-social social two">
 				<li>
-					<a href="#" class="facebook">
+					<a href="https://www.facebook.com/pages/category/Product-Service/Maison-de-Palmer-199050054015546/" class="facebook">
 						<div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
 						<div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div>
 					</a>
 				</li>
 				<li>
-					<a href="#" class="twitter">
-						<div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-						<div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-					</a>
-				</li>
-				<li>
-					<a href="#" class="instagram">
+					<a href="https://www.instagram.com/explore/locations/199050054015546/maison-de-palmer" class="instagram">
 						<div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
 						<div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div>
 					</a>
 				</li>
 				<li>
-					<a href="#" class="pinterest">
-						<div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
-						<div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+					<a href="https://www.youtube.com/channel/UC8DWuG5UwnwfG5NAQCa85lw" class="pinterest">
+						<div class="front"><i class="fa fa-youtube" aria-hidden="true"></i></div>
+						<div class="back"><i class="fa fa-youtube" aria-hidden="true"></i></div>
 					</a>
 				</li>
 			</ul>

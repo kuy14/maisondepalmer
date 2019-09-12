@@ -46,7 +46,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<button type="button" class="overlay-close"><i class="fa fa-times" aria-hidden="true"></i></button>
 					<nav>
 						<ul>
-							<li><a href="index.html" class="active">Home</a></li>
+							<li><a href="<?php echo base_url('');?>" class="active">Home</a></li>
 							<li><a href="<?php echo base_url('Home/about');?>">About US</a></li>
 							<li><a href="<?php echo base_url('Home/produk');?>">Our Product</a></li>
 							<li><a href="<?php echo base_url('Home/contact');?>">Contact US</a></li>
@@ -160,7 +160,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<h3>Terry Palmer Eternal</h3>
 					<p>Cari handuk tanpa motif dari Terry Palmer? Maison de Palmer juga menyediakan handuk Terry Palmer Eternal! Tersedia dalam enam pilihan warna; purple, maroon, brown, green, yellow, dan mocca, serta hadir dalam tiga ukuran.</p>
 					<div class="shop-button">
-						<a href="shop.html">Lihat Detail</a>
+						<a href="<?php echo base_url('Home/produk');?>">Lihat Detail</a>
 					</div>
 				</div>
 			</div>
@@ -184,7 +184,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h3>Terry Palmer Batik</h3>
 						<p>Handuk Terry Palmer Batik yang cocok untuk Seserahan <br><br><br><br></p>
 						<div class="shop-button">
-							<a href="shop.html">Lihat Detail</a>
+							<a href="<?php echo base_url('Home/produk');?>">Lihat Detail</a>
 						</div>
 					</div>
 				</div>
@@ -208,7 +208,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h3>Terry Palmer Premium</h3>
 						<p>Dirancang dengan material yang premium, desain eksklusif, dan anti-bakteri, handuk Terry Palmer Premium menjadi produk paling dicari oleh masyarakat Indonesia. Kebanyakan customer kami sudah mulai kesulitan mencari produk ini di pasaran.</p>
 						<div class="shop-button two">
-							<a href="shop.html">Lihat Detail</a>
+							<a href="<?php echo base_url('Home/produk');?>">Lihat Detail</a>
 						</div>
 					</div>
 				</div>
