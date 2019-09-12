@@ -95,6 +95,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 												<a href="#" data-toggle="modal" data-target=".bd-example-modal-lg"><?php echo $p->nama; ?></a>
 											</h4>
 											<div class="info-product-price">
+											<?php echo anchor("Home/detail_produk/".$p->nama_url,'Detail'); ?>
 												<div class="grid_meta">
 													<div class="product_price">
 														<div class="grid-price ">

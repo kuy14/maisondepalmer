@@ -157,17 +157,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="col-md-6 style-grid style-grid-2">
 			<div class="style-image-1_info">
 				<div class="style-grid-2-text_info">
-					<h3>Terry Palmer Eternal</h3>
-					<p>Cari handuk tanpa motif dari Terry Palmer? Maison de Palmer juga menyediakan handuk Terry Palmer Eternal! Tersedia dalam enam pilihan warna; purple, maroon, brown, green, yellow, dan mocca, serta hadir dalam tiga ukuran.</p>
+					<h3>Kenapa Memilih Terry Palmer ?</h3>
+					<p>MAISON de PALMER didirikan tahun 2000 dan di tunjuk langsung sebagai distributor di Jawa Barat untuk produk handuk yang berkualitas tinggi, Terry Palmer.</p>
 					<div class="shop-button">
-						<a href="<?php echo base_url('Home/produk');?>">Lihat Detail</a>
+						<a href="<?php echo base_url('Home/about');?>">Lihat Detail</a>
 					</div>
 				</div>
 			</div>
 			<div class="style-image-2">
 				<img src="<?php echo base_url('assets/images/img2.png');?>" alt="shoe">
 				<div class="style-grid-2-text">
-					<h3>Tery Palmer Eternal</h3>
+					<h3></h3>
 				</div>
 			</div>
 		</div>
@@ -181,10 +181,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="col-md-6 grids_sec_2_left">
 				<div class="grid_sec_info">
 					<div class="style-grid-2-text_info">
-						<h3>Terry Palmer Batik</h3>
-						<p>Handuk Terry Palmer Batik yang cocok untuk Seserahan <br><br><br><br></p>
+					<h3>Cara Cuci Handuk</h3>
+						<p>Agar handuk Anda tetap awet, lakukan beberapa kiat berikut ini. <br><br><br><br></p>
 						<div class="shop-button">
-							<a href="<?php echo base_url('Home/produk');?>">Lihat Detail</a>
+							<a href="<?php echo base_url('Home/cara');?>">Lihat Detail</a>
 						</div>
 					</div>
 				</div>
@@ -196,7 +196,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			</div>
 			<div class="col-md-6 grids_sec_2_left">
-
 				<div class="style-image-2">
 					<img src="<?php echo base_url('assets/images/img4.png');?>" alt="shoe">
 					<div class="style-grid-2-text">
@@ -205,10 +204,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="grid_sec_info last">
 					<div class="style-grid-2-text_info">
-						<h3>Terry Palmer Premium</h3>
-						<p>Dirancang dengan material yang premium, desain eksklusif, dan anti-bakteri, handuk Terry Palmer Premium menjadi produk paling dicari oleh masyarakat Indonesia. Kebanyakan customer kami sudah mulai kesulitan mencari produk ini di pasaran.</p>
+					<h3>Teknologi Handuk</h3>
+						<p>Premium merupakan handuk terry palmer kualitas terbaik dengan motif yang terus update setiap bulannya. Bisa dibilang, premium jenis handuk Terry Palmer dengan angka penjualan tertinggi / paling laris.</p>
 						<div class="shop-button two">
-							<a href="<?php echo base_url('Home/produk');?>">Lihat Detail</a>
+							<a href="<?php echo base_url('Home/teknologi');?>">Lihat Detail</a>
 						</div>
 					</div>
 				</div>

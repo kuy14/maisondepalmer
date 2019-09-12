@@ -22,6 +22,14 @@ class Home extends CI_Controller
 		
 		$this->load->view('produk',$data);
 	}
+
+	public function detail_produk($nama_url)
+	{
+		$where = array('nama_url' => $nama_url);
+		$data['produk'] = $this->mdMaison->edit($where,'produk')->result();
+
+		$this->load->view('detail',$data);
+	}
 	
 	public function search()
 	{
@@ -41,8 +49,24 @@ class Home extends CI_Controller
     {
         $this->load->view('about');
 	}
+
 	public function contact()
 	{
 		$this->load->view('contact');
+	}
+
+	public function alasan()
+	{
+		$this->load->view('alasan');
+	}
+
+	public function cara()
+	{
+		$this->load->view('cara');
+	}
+
+	public function teknologi()
+	{
+		$this->load->view('teknologi');
 	}
 }
