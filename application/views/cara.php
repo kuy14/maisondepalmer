@@ -42,35 +42,37 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 	<!-- //banner -->
 				<div class="grid_sec_info last">
-					<div class="style-grid-2-text_info">
+					<div class="style-grid-2-text_info" style="padding-right: 500px;">
 					<h3>Cara Mencuci Handuk</h3>
 					<p>
-                        Agar handuk Anda tetap awet, lakukan beberapa kiat berikut ini.
-                    </p>
-                    <p>
-                        Pertama, cuci handuk sebelum digunakan pertama kali.
-                    </p>
-                    <p>
-                        Tambahkan setengah cangkir cuka pada air cucian untuk mencuci handuk baru.
-                    </p>
-                    <p>
-                        Cara itu membantu menjaga warnanya agar tidak mudah pudar.
-                    </p>
-                    <p>
-                        Kedua, jemurlah handuk di bawah sinar matahari langsung setiap hari agar handuk senantiasa kering dan terbebas dari jamur dan penyakit kulit.
-                    </p>
-                    <p>
-                        Usahakan tidak menggantung handuk terlalu lama di dalam kamar mandi karena akan membuat handuk menjadi lembap, bau, dan berjamur.
-                    </p>
-                    <p>
-                        Kiat ketiga, untuk noda yang sulit bersih, cobalah direndam ulang dengan air yang dicampur air cuka dapur.
-                    </p>
-                    <p>
-                        Setelah handuk dicuci bersih, jemurlah sampai kering kemudian simpan di lemari.
-                    </p>
-                    <p>
-                        Sebaiknya, handuk yang telah dijemur jangan disetrika karena akan membuat serat kain menjadi tipis.
-                    </p>
+					Agar handuk Anda tetap awet, lakukan beberapa kiat berikut ini :
+<ul>
+<li>
+	Pertama, cuci handuk sebelum digunakan pertama kali.
+</li>
+<li>
+	Tambahkan setengah cangkir cuka pada air cucian untuk mencuci handuk baru.
+</li>
+<li>
+	Cara itu membantu menjaga warnanya agar tidak mudah pudar.
+</li>
+<li>
+	Kedua, jemurlah handuk di bawah sinar matahari langsung setiap hari agar handuk senantiasa kering dan terbebas dari jamur dan penyakit kulit.
+</li>
+<li>
+	Usahakan tidak menggantung handuk terlalu lama di dalam kamar mandi karena akan membuat handuk menjadi lembap, bau, dan berjamur.
+</li>
+<li>
+	Kiat ketiga, untuk noda yang sulit bersih, cobalah direndam ulang dengan air yang dicampur air cuka dapur.
+</li>
+<li>
+	Setelah handuk dicuci bersih, jemurlah sampai kering kemudian simpan di lemari.
+</li>
+<li>
+	Sebaiknya, handuk yang telah dijemur jangan disetrika karena akan membuat serat kain menjadi tipis.
+</li>
+</ul>
+					</p>
 						<div class="shop-button two">
 						</div>
 					</div>
